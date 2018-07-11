@@ -6,7 +6,7 @@ import (
 
 func TestHelloWorld(t *testing.T) {
 	actual := HelloWorld("hoge")
-	expected := "good-bye world, hoge"
+	expected := "hello world, fuga"
 	if actual != expected {
 		t.Errorf("actual %v\nwant %v", actual, expected)
 	}
